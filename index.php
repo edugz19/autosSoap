@@ -43,27 +43,6 @@
 
 
 			<?php
-
-					$final = substr($url,17);
-					$url = "https://www.youtube.com/embed/$final";
-
-					echo "
-					<div class='modal fade' id='video-$marca' data-bs-keyboard='false' tabindex='-1'  aria-hidden='true'>
-						<div class='modal-dialog modal-dialog-centered modal-lg'>
-							<div class='modal-content'>
-								<div class='modal-header'>
-									<h5 class='modal-title' id='video-$marca'>Audi video demo</h5>
-									<button type='button' class='btn-close' data-bs-dismiss='modal' aria-label='Close'></button>
-								</div>
-								<div class='modal-body'>	
-									<iframe src='$url' width='100%' height='500px'  title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>
-								</div>
-							</div>
-						</div>
-					</div>
-					";
-
-
 				}
 			?>
 			
